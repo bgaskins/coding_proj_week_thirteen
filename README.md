@@ -1,71 +1,88 @@
-# Getting Started with Create React App
+# React Login App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project is a simple React application created using Create React App, featuring a LoginForm component and a Navigation component. The project is built with JavaScript, HTML, and CSS.
 
-## Available Scripts
+## Demo
 
-In the project directory, you can run:
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+https://github.com/bgaskins/coding_proj_week_thirteen/assets/96695276/e8faadc4-d567-4b48-8e05-43d8c22f11b1
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- [YouTube Video Demo](https://youtu.be/Z_A22r9kjOI)
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## GitHub Repository
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- [GitHub Repository](https://github.com/bgaskins/coding_proj_week_thirteen)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Getting Started
 
-### `npm run eject`
+To run this project on your local machine, follow the steps below:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+1. Clone the repository:
+```
+   git clone https://github.com/bgaskins/coding_proj_week_thirteen.git
+```
+2. Navigate to the project directory:
+```
+   cd coding_proj_week_thirteen
+```
+4. Install the project dependencies:
+```
+   npm install
+```
+4. Start the development server:
+```
+   npm start
+```
+  The project should now be running in your browser at http://localhost:3000.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Components
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## LoginForm
+The LoginForm component consists of the following elements:
+```
+Username input field
+Password input field
+An <h3> element that says "Log In" with a border
+The styling for the LoginForm component is provided by the default generated CSS file.
+```
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## Navbar
+```
+The Navigation component includes links styled like a navbar. 
+These links are static and do not navigate to any specific pages.
+```
 
-## Learn More
+## Project Structure
+The project directory is organized as follows:
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+```
+src/
+├── components/
+│   ├── LoginForm.js
+│   ├── Navbar.js
+├── App.js
+├── index.js
+├── index.css
+└── ...
+```
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+The LoginForm and Navigation components can be found in the components directory.
+- The main application logic is in App.js.
+- The project entry point is in index.js.
 
-### Code Splitting
+## Styling
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Styling for the LoginForm is provided using the default CSS file (index.css), and the Navigation component has its styles for the navbar-like links.
 
-### Analyzing the Bundle Size
+## Usage
+You can use this project as a starting point for building React applications with a login form and navigation. Customize the components and add functionality as needed.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## Author
+Bryan Gaskins
 
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-# coding_proj_week_thirteen
+# License
+This project is open-source and available under the MIT License.
